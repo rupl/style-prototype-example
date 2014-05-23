@@ -1,0 +1,43 @@
+# Variables that will be available for `layouts` patterns.
+# To use: {{layouts.variable}}
+layouts:
+  header:
+    first:
+      name: logo
+      source: components
+    second:
+      name: slogan
+      source: components
+  colone:
+    first:
+      name: h1
+      source: components
+    second:
+      name: p
+      source: components
+    third:
+      name: p
+      source: components
+    fourth:
+      name: image-big
+      source: components
+    fifth:
+      name: p
+      source: components
+  coltwo:
+    first:
+      name: h2
+      source: components
+    second:
+      name: p
+      source: components
+    third:
+      name: p
+      source: components
+    fourth:
+      name: image
+      source: components
+  footer:
+    first:
+      name: copyright
+      source: components

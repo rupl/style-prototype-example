@@ -1,0 +1,33 @@
+//////////////////////////////
+// Footer Layouts
+//
+// The partial and folder structure for this layouts should be as follows:
+// _footer.scss
+// footer (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base layouts: @{layouts}
+//  - End styling block for base layouts:   {layouts}@
+//
+//  - Start styling block for specific layouts aspect: @{layouts--aspect}
+//  - End styling block for specific layouts aspect:   {layouts--aspect}@
+//////////////////////////////
+
+@import "footer/variables";
+@import "footer/mixins";
+@import "footer/extends";
+
+//////////////////////////////
+// @{footer}
+// Styling for Footer Layouts
+.footer {
+  clear: both;
+  background: #777;
+  color: #ddd;
+  padding: 2em;
+}
+// {footer}@
+//////////////////////////////

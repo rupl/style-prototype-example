@@ -1,0 +1,30 @@
+//////////////////////////////
+// Slogan Components
+//
+// The partial and folder structure for this components should be as follows:
+// _slogan.scss
+// slogan (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base components: @{components}
+//  - End styling block for base components:   {components}@
+//
+//  - Start styling block for specific components aspect: @{components--aspect}
+//  - End styling block for specific components aspect:   {components--aspect}@
+//////////////////////////////
+
+@import "slogan/variables";
+@import "slogan/mixins";
+@import "slogan/extends";
+
+//////////////////////////////
+// @{slogan}
+// Styling for Slogan Components
+.slogan {
+
+}
+// {slogan}@
+//////////////////////////////

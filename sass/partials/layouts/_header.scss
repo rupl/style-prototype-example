@@ -1,0 +1,40 @@
+//////////////////////////////
+// Header Layouts
+//
+// The partial and folder structure for this layouts should be as follows:
+// _header.scss
+// header (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base layouts: @{layouts}
+//  - End styling block for base layouts:   {layouts}@
+//
+//  - Start styling block for specific layouts aspect: @{layouts--aspect}
+//  - End styling block for specific layouts aspect:   {layouts--aspect}@
+//////////////////////////////
+
+@import "header/variables";
+@import "header/mixins";
+@import "header/extends";
+
+//////////////////////////////
+// @{header}
+// Styling for Header Layouts
+.header {
+  clear: both;
+  background: #777;
+  color: #333;
+  padding: 2em;
+  @include clearfix;
+
+  #main-logo,
+  .slogan {
+    float: left;
+    margin-right: 1em;
+  }
+}
+// {header}@
+//////////////////////////////

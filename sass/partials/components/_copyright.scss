@@ -1,0 +1,30 @@
+//////////////////////////////
+// Copyright Components
+//
+// The partial and folder structure for this components should be as follows:
+// _copyright.scss
+// copyright (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base components: @{components}
+//  - End styling block for base components:   {components}@
+//
+//  - Start styling block for specific components aspect: @{components--aspect}
+//  - End styling block for specific components aspect:   {components--aspect}@
+//////////////////////////////
+
+@import "copyright/variables";
+@import "copyright/mixins";
+@import "copyright/extends";
+
+//////////////////////////////
+// @{copyright}
+// Styling for Copyright Components
+.copyright {
+
+}
+// {copyright}@
+//////////////////////////////

@@ -1,0 +1,12 @@
+{
+  "name": "class--style-prototype",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-style-prototype": "0.x.x"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

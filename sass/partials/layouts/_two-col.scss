@@ -1,0 +1,54 @@
+//////////////////////////////
+// Two-Col Layouts
+//
+// The partial and folder structure for this layouts should be as follows:
+// _two-col.scss
+// two-col (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base layouts: @{layouts}
+//  - End styling block for base layouts:   {layouts}@
+//
+//  - Start styling block for specific layouts aspect: @{layouts--aspect}
+//  - End styling block for specific layouts aspect:   {layouts--aspect}@
+//////////////////////////////
+
+@import "two-col/variables";
+@import "two-col/mixins";
+@import "two-col/extends";
+
+//////////////////////////////
+// @{two-col}
+// Styling for Two-Col Layouts
+.two-col {
+  clear: both;
+
+  // Give content within columns some padding
+  .col {
+    padding: 1em;
+  }
+
+  // Provide two-column layout via Singularity
+  .col-first {
+    @include breakpoint($two-col) {
+      @include grid-span(1,1);
+    }
+    background: rgba(#0fc, .4);
+  }
+  .col-second {
+    @include breakpoint($two-col) {
+      @include grid-span(1,2);
+    }
+    background: rgba(#0cf, .4);
+  }
+
+  // Components inside this layout should be spaced out.
+  h1, h2, p, img {
+    margin-bottom: 1em;
+  }
+}
+// {two-col}@
+//////////////////////////////

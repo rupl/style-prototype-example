@@ -1,0 +1,30 @@
+//////////////////////////////
+// Image-Big Components
+//
+// The partial and folder structure for this components should be as follows:
+// _image-big.scss
+// image-big (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base components: @{components}
+//  - End styling block for base components:   {components}@
+//
+//  - Start styling block for specific components aspect: @{components--aspect}
+//  - End styling block for specific components aspect:   {components--aspect}@
+//////////////////////////////
+
+@import "image-big/variables";
+@import "image-big/mixins";
+@import "image-big/extends";
+
+//////////////////////////////
+// @{image-big}
+// Styling for Image-Big Components
+.image-big {
+
+}
+// {image-big}@
+//////////////////////////////

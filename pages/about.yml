@@ -1,0 +1,10 @@
+includes:
+  header:
+    name: header
+    source: layouts
+  content:
+    name: two-col
+    source: layouts
+  footer:
+    name: footer
+    source: layouts
