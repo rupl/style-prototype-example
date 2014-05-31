@@ -1,43 +1,52 @@
 # Variables that will be available for `layouts` patterns.
 # To use: {{layouts.variable}}
+
+#
+# Inside each layout, we use letters to specify each component. The tool
+# currently sorts them alphabetically when outputting the Angular-driven
+# prototype, so this ensures that they show up in the intended order
+#
+# @see https://github.com/north/Style-Prototypes/issues/6
+#
+
 layouts:
   header:
-    first:
+    a:
       name: logo
       source: components
-    second:
+    b:
       name: slogan
       source: components
   colone:
-    first:
+    a:
       name: h1
       source: components
-    second:
-      name: p
-      source: components
-    third:
-      name: p
-      source: components
-    fourth:
+    b:
       name: image-big
       source: components
-    fifth:
+    c:
+      name: base--text
+      source: components
+    d:
+      name: p
+      source: components
+    e:
       name: p
       source: components
   coltwo:
-    first:
+    a:
       name: h2
       source: components
-    second:
+    b:
       name: p
       source: components
-    third:
+    c:
       name: p
       source: components
-    fourth:
+    d:
       name: image
       source: components
   footer:
-    first:
+    a:
       name: copyright
       source: components
