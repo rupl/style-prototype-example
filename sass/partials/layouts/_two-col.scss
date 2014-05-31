@@ -23,22 +23,24 @@
 //////////////////////////////
 // @{two-col}
 // Styling for Two-Col Layouts
-.two-col {
+._two-col {
   clear: both;
 
   // Give content within columns some padding
-  .col {
+  %column {
     padding: 1em;
   }
 
   // Provide two-column layout via Singularity
-  .col-first {
+  ._two-col--first {
+    @extend %column;
     @include breakpoint($two-col) {
       @include grid-span(1,1);
     }
     background: rgba(#0fc, .4);
   }
-  .col-second {
+  ._two-col--second {
+    @extend %column;
     @include breakpoint($two-col) {
       @include grid-span(1,2);
     }
