@@ -45,16 +45,15 @@ $browser-minimum-versions: (
 
 //////////////////////////////
 // COMPONENTS
-
 @import "partials/components/copyright";
 @import "partials/components/logo";
 @import "partials/components/slogan";
 @import "partials/components/image-big";
+@import "partials/components/contact-info";
 //////////////////////////////
 
 //////////////////////////////
 // LAYOUTS
-
 @import "partials/layouts/header";
 @import "partials/layouts/footer";
 @import "partials/layouts/two-col";

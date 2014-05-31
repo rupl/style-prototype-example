@@ -38,13 +38,10 @@ layouts:
       name: h2
       source: components
     b:
-      name: p
+      name: image
       source: components
     c:
-      name: p
-      source: components
-    d:
-      name: image
+      name: contact-info
       source: components
   footer:
     a:
