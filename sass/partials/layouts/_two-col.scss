@@ -46,20 +46,6 @@
     }
     background: rgba(#0cf, .4);
   }
-
-  // Components inside this layout should be spaced out.
-  h1, h2, p, img {
-    margin-bottom: 1em;
-  }
-
-  // TEMPORARY. Style headings within this layout. Remove when we can style the
-  // base components at the per-component level.
-  h1 {
-    font-size: 2.4em;
-  }
-  h2 {
-    font-size: 1.6em;
-  }
 }
 // {two-col}@
 //////////////////////////////
