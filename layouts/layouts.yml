@@ -24,24 +24,18 @@ layouts:
     b:
       name: image-big
       source: components
-    c:
-      name: base--text
-      source: components
-    d:
-      name: p
-      source: components
-    e:
-      name: p
-      source: components
+    # c:
+    #
+    # put your code here to create two new components:
+    # - menu component
+    # - menu-item components to be listed on the menu
+
   coltwo:
     a:
-      name: h2
+      name: contact-info
       source: components
     b:
       name: image
-      source: components
-    c:
-      name: contact-info
       source: components
   footer:
     a:
