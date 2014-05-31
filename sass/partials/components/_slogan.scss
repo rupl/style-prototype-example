@@ -24,9 +24,11 @@
 // @{slogan}
 // Styling for Slogan Components
 .slogan {
-  padding-top: .5em;
-  font-style: italic;
-  font-size: 1.4em;
+  @include eq('medium') {
+    padding-top: .5em;
+    font-style: italic;
+    font-size: 1.4em;
+  }
 }
 // {slogan}@
 //////////////////////////////
