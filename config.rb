@@ -5,6 +5,8 @@ require 'singularitygs'
 require 'toolkit'
 require 'modular-scale'
 require 'color-schemer'
+# Require eq.js helpers from bower_components folder
+add_import_path 'bower_components/eq.js/sass'
 
 # Set this to the root of your project when deployed:
 http_path = "./"
