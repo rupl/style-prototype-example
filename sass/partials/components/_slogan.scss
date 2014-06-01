@@ -24,8 +24,6 @@
 // @{slogan}
 // Styling for Slogan Components
 .slogan {
-  float: left;
-
   @include eq('medium') {
     padding-top: .5em;
     font-style: italic;
