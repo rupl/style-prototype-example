@@ -1,3 +1,16 @@
 # Variables that will be available for `components` patterns.
 # To use: {{components.variable}}
 components:
+  menuitems:
+    chicken:
+      name: "Chicken Pizza"
+      desc: "This pesto sauce pizza has chicken, spinach, and sun-dried tomatos."
+      price: "$7.99"
+    bbq:
+      name: "BBQ Pizza"
+      desc: "A Texas spin on pizza! Sausage, brisket, and BBQ pizza sauce."
+      price: "$8.99"
+    vegan:
+      name: "Vegan curry pizza"
+      desc: "Made with our special vegan dough, this India-inspired pizza has curry and paneer."
+      price: "$7.99"
