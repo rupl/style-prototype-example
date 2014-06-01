@@ -1,6 +1,6 @@
 //////////////////////////////
 // two-col Component Variable Defaults
 //////////////////////////////
-$two-col: 768px;
+$two-col: 720px;
 @include add-grid(2 1 at $two-col);
 @include add-gutter(1/20 at $two-col);
