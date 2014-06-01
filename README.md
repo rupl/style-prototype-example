@@ -1,4 +1,6 @@
-# style-prototype-example
+# style-prototype-example (`finished` branch)
+
+You are looking at the **finished version** of the Style Prototype. Use it to get ideas for creating your own components.
 
 ## Installation
 
