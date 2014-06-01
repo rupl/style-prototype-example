@@ -41,7 +41,7 @@
     font-style: italic;
   }
 
-  @include eq('grid') {
+  [data-eq-state="grid"] & {
     width: 50%;
     float: left;
   }
