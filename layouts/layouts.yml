@@ -19,17 +19,12 @@ layouts:
       source: components
   colone:
     a:
-      name: h1
+      name: menu
       source: components
-    b:
-      name: image-big
+  menu:
+    a:
+      name: menuitems
       source: components
-    # c:
-    #
-    # put your code here to create two new components:
-    # - menu component
-    # - menu-item components to be listed on the menu
-
   coltwo:
     a:
       name: contact-info

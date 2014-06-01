@@ -1,0 +1,30 @@
+//////////////////////////////
+// Menu Components
+//
+// The partial and folder structure for this components should be as follows:
+// _menu.scss
+// menu (folder)
+//   _extends.scss
+//   _mixins.scss
+//   _variables.scss
+//
+// Automatic Sass parsing is done through special comment blocks
+//  - Start styling block for base components: @{components}
+//  - End styling block for base components:   {components}@
+//
+//  - Start styling block for specific components aspect: @{components--aspect}
+//  - End styling block for specific components aspect:   {components--aspect}@
+//////////////////////////////
+
+@import "menu/variables";
+@import "menu/mixins";
+@import "menu/extends";
+
+//////////////////////////////
+// @{menu}
+// Styling for Menu Components
+.menu {
+
+}
+// {menu}@
+//////////////////////////////
