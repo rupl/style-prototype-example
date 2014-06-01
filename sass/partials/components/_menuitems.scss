@@ -40,6 +40,11 @@
   .price {
     font-style: italic;
   }
+
+  @include eq('grid') {
+    width: 50%;
+    float: left;
+  }
 }
 // {menuitems}@
 //////////////////////////////

@@ -17,3 +17,15 @@ components:
       name: "Vegan curry pizza"
       desc: "Made with our special vegan dough, this India-inspired pizza has curry and paneer."
       price: "$7.99"
+    caprese:
+      name: "Caprese Pizza"
+      desc: "Fresh mozzarella, tomato, and basil make up this perfectly balanced italian classic."
+      price: "$6.99"
+    fire:
+      name: "Fire pizza"
+      desc: "Chipotle, Serrano, and Habañero peppers are grilled and paired with mushrooms and onions."
+      price: "$8.99"
+    windy:
+      name: "Windy city Pizza"
+      desc: "A pie made in true Chicago tradition: thick crust placed in a pie dish, \"toppings\" next, then sauce on top."
+      price: "$11.99"
