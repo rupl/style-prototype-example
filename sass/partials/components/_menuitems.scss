@@ -24,7 +24,22 @@
 // @{menuitems}
 // Styling for Menuitems Components
 .menuitems {
-
+  .name {
+    font-family: arial, sans serif;
+    font-size: 1.4em;
+    margin-bottom: .2em;
+    border-bottom: 1px solid #ddd;
+    padding: .2em .4em;
+    text-transform: capitalize;
+  }
+  .desc {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    padding: .25em .5em;
+  }
+  .price {
+    font-style: italic;
+  }
 }
 // {menuitems}@
 //////////////////////////////
