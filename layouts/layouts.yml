@@ -30,6 +30,9 @@ layouts:
       name: contact-info
       source: components
     b:
+      name: storehours
+      source: components
+    c:
       name: image
       source: components
   footer:
