@@ -23,7 +23,7 @@ layouts:
       source: components
   menu:
     a:
-      name: menuitems
+      name: menuitem
       source: components
   coltwo:
     a:

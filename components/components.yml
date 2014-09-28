@@ -2,7 +2,7 @@
 # To use: {{components.variable}}
 components:
   menu:
-    name: menuitems
+    name: menuitem
     source: components
   menuitems:
     chicken:
