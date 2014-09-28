@@ -37,14 +37,14 @@
     @include breakpoint($two-col) {
       @include grid-span(1,1);
     }
-    background: rgba(#0fc, .4);
+    background: rgba($yellow, .4);
   }
   ._two-col--second {
     @extend %column;
     @include breakpoint($two-col) {
       @include grid-span(1,2);
     }
-    background: rgba(#0cf, .4);
+    background: rgba($orange, .4);
   }
 }
 // {two-col}@
