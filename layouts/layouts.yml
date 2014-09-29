@@ -11,9 +11,9 @@
 
 layouts:
   header:
-    a:
-      name: logo
-      source: components
+    # a:
+    #
+    # put your code here to create a logo component.
     b:
       name: slogan
       source: components
@@ -31,12 +31,13 @@ layouts:
     # - menu-item components to be listed on the menu
 
   coltwo:
-    a:
-      name: contact-info
-      source: components
+    # a:
+    #
+    # put your code here to create a contact-info component.
     b:
       name: image
       source: components
+
   footer:
     a:
       name: copyright
